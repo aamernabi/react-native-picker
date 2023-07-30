@@ -27,7 +27,6 @@ android {
   }
 
   compileSdkVersion getExtOrIntegerDefault('compileSdkVersion')
-  buildToolsVersion getExtOrDefault('buildToolsVersion')
 
   defaultConfig {
     minSdkVersion getExtOrIntegerDefault('minSdkVersion')
